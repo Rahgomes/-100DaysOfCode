@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Challenge Accepted! #100DaysOfCode - #Day01</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main class="uk-container uk-container-expand">
+        <section class="uk-child-width-expand@s" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-text-center color">Formulário</div>
+
+                <form class="uk-margin-medium-top uk-text-center">
+                    <fieldset class="uk-fieldset">
+                
+                        <div class="uk-margin"> 
+                            <input id="nome" class="uk-input color-input" type="text" placeholder="Nome">
+                        </div>
+
+                        <div class="uk-margin"> 
+                            <input id="email" class="uk-input color-input" type="text" placeholder="E-mail">
+                        </div>
+
+                        <div class="uk-margin"> 
+                            <input id="telefone" class="uk-input color-input" type="text" placeholder="Telefone">
+                        </div>
+
+                        <div class="uk-margin"> 
+                            <input id="endereco" class="uk-input color-input" type="text" placeholder="Endereço">
+                        </div>            
+                
+                        <div class="uk-margin">
+                            <textarea id="mensagem" class="uk-textarea color-input" rows="5" placeholder="Escreva sobre você"></textarea>
+                        </div>            
+
+                        <button id="enviar-dados" class="uk-button uk-button-default color-btn">Enviar Dados</button>
+                
+                    </fieldset>
+                </form>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-text-center color">Dados Formulário</div>
+                
+                <div class="uk-margin-medium-top">
+                    <p class="paragrafo">Nome: <span class="resultado-input" id="input-nome"></span></p>
+                    <p class="paragrafo">E-mail: <span class="resultado-input" id="input-email"></span></p>
+                    <p class="paragrafo">Telefone: <span class="resultado-input" id="input-telefone"></span></p>
+                    <p class="paragrafo">Endereço: <span class="resultado-input" id="input-endereco"></span></p>
+                    <p class="paragrafo">Mensagem: <span class="resultado-input" id="input-mensagem"></span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

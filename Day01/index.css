@@ -1,0 +1,23 @@
+.color {
+    background-color: #2f629b;
+    color: #fff;
+    font-weight: bold;
+}
+
+.color-input {
+    background-color: #2f629b;
+    color: #fff;
+}
+
+.color-btn {
+    background-color: #2f629b;
+    color: #fff;
+}
+
+.paragrafo {
+    color: #000;
+}
+
+.resultado-input {
+    font-weight: bold;
+}
