@@ -5,7 +5,7 @@ function iniciar(){
     sliderImages = ["imagem-slider--01","imagem-slider--02","imagem-slider--03"];
     indice = 0;
 
-    intervalo = setInterval(mudarFoto, 1000);
+    intervalo = setInterval(mudarFoto, 3000);
     stopSlider();
     restartSlider();
     mudarSlider();
@@ -28,7 +28,7 @@ function stopSlider(){
 
 function restartSlider(){
     $(slider).mouseout(function(){
-        intervalo = setInterval(mudarFoto, 1000);
+        intervalo = setInterval(mudarFoto, 3000);
     });
 }
 
@@ -41,6 +41,6 @@ function mudarSlider(){
     });
 
     $(mudaImagem).mouseout(function(){
-        mudarFoto(setInterval(mudarFoto, 1000));
+        mudarFoto(setInterval(mudarFoto, 3000));
     });
 }
