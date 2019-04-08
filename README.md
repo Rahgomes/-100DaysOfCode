@@ -6,4 +6,7 @@ Tecnologias utilizadas: HTML, CSS, UIKit, JS
 ### Day02 - Simple Slider
 Tecnologias utilizadas: HTML, CSS, Bootstrap, JS, jQuery
 
-### Day03 - ...
+### Day03 - Basic of Accebility - Mudança de cores e aumento/redução da fonte
+Tecnologias utilizadas: HTML, CSS, Bootstrap, JS, jQuery
+
+### Day04 - ...
