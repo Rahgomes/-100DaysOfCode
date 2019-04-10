@@ -12,4 +12,7 @@ Tecnologias utilizadas: HTML, CSS, Bootstrap, JS, jQuery
 ### Day04 - Escolhendo um personagem
 Tecnologias utilizadas: HTML, CSS, Bootstrap, JS, jQuery
 
-### Day05 - ...
+### Day05 - Pegando portfolios através de uma API criada do portfolio principal
+Tecnologias utilizadas: HTML, CSS, Bootstrap, JS, jQuery
+
+### Day06 - ...

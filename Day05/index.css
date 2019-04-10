@@ -1,0 +1,9 @@
+body {
+    font-family: 'Noto Serif', 'Titillium Web', serif;
+}
+
+h3,h4 {
+    font-family: 'Titillium Web', 'Noto Serif', serif;
+    font-size: .9rem;
+    font-weight: bold;
+}
