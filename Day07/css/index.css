@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(#000, #ddd);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px 50px #fff, 0px 0px 10px 120px #000;
+    overflow: hidden;    
+}
+
+.img {
+    height: 300px;
+    width: 500px;
+    border: 1px solid #000;
+}
+
+.img:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in;
+}

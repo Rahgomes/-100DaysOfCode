@@ -18,4 +18,7 @@ Tecnologias utilizadas: HTML, CSS, Bootstrap, JS, jQuery
 ### Day06 - Fullscreen Slider com menu trocando as imagens
 Tecnologias utilizadas: HTML, CSS, Bootstrap, JS, jQuery
 
-### Day07 - ...
+### Day07 - Testando os plugins jQuery Tooltipster e SweetAlert 2
+Tecnologias utilizadas: HTML, CSS, JS, jQuery
+
+### Day08 - ...
