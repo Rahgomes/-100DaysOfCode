@@ -15,4 +15,7 @@ Tecnologias utilizadas: HTML, CSS, Bootstrap, JS, jQuery
 ### Day05 - Pegando portfolios através de uma API criada do portfolio principal
 Tecnologias utilizadas: HTML, CSS, Bootstrap, JS, jQuery
 
-### Day06 - ...
+### Day06 - Fullscreen Slider com menu trocando as imagens
+Tecnologias utilizadas: HTML, CSS, Bootstrap, JS, jQuery
+
+### Day07 - ...
