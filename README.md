@@ -21,4 +21,7 @@ Tecnologias utilizadas: HTML, CSS, Bootstrap, JS, jQuery
 ### Day07 - Testando os plugins jQuery Tooltipster e SweetAlert 2
 Tecnologias utilizadas: HTML, CSS, JS, jQuery
 
-### Day08 - ...
+### Day08 - Praticando a base dos eventos de mouse
+Tecnologias utilizadas: HTML, CSS, Bootstrap, JS, jQuery
+
+### Day09 - ...
