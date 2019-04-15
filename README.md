@@ -27,4 +27,7 @@ Tecnologias utilizadas: HTML, CSS, Bootstrap, JS, jQuery
 ### Day09 - Menu com evento de mouse e imagem Hero
 Tecnologias utilizadas: HTML, CSS, JS, jQuery
 
-### Day10 - ...
+### Day10 - Praticando iterações com For e Foreach
+Tecnologias utilizadas: HTML, CSS, JS
+
+### Day11 - ...

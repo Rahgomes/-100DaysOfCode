@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Challenge Accepted! #100DaysOfCode - #Day10 Praticando iterações com For e Foreach</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="div-p">
+        <p class="paragrafo-for"></p>
+        <p class="paragrafo-for"></p>
+        <p class="paragrafo-for"></p>
+        <p class="paragrafo-for"></p>
+        <p class="paragrafo-for"></p>
+        <p class="paragrafo-for"></p>
+    </div>
+
+    <div id="hide" class="hidden">
+        <p>
+            for (var i = 0; i < pFor.length; i++) { </br>
+                pFor[i].textContent = "Praticando o laço de repetição FOR"; </br>
+                pFor[i].textContent += " com o índice na posição " + "[" + i + "]"; </br>
+            }
+        </p>
+    </div>
+
+    <div class="btn">
+        <button id="exec-for" class="btn-item">Executar FOR</button>
+        <button id="sintax-for" class="btn-item">Sintaxe FOR</button>
+        <button id="apply-css-for" class="btn-item">Aplicar CSS FOR</button>
+    </div>
+
+    <div id="div-p-foreach">
+        <p class="paragrafo-foreach"></p>
+        <p class="paragrafo-foreach"></p>
+        <p class="paragrafo-foreach"></p>
+        <p class="paragrafo-foreach"></p>
+        <p class="paragrafo-foreach"></p>
+        <p class="paragrafo-foreach"></p>
+    </div>
+
+    <div id="hide-foreach" class="hidden">
+        <p>
+            pForeach.forEach(function(element, indice){ </br>
+                element.textContent = "Praticando o laço de repetição FOREACH"; </br>
+                element.textContent += " com o índice na posição " + "[" + indice + "]"; </br>
+            });
+        </p>
+    </div>
+
+    <div class="btn">
+        <button id="exec-foreach" class="btn-item">Executar FOREACH</button>
+        <button id="sintax-foreach" class="btn-item">Sintaxe FOREACH</button>
+        <button id="apply-css-foreach" class="btn-item">Aplicar CSS FOREACH</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hidden { 
+    display: none;
+}
+
+.p-style, .code-style {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.div-p-style {
+    background-color: #d1d1d1;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+.code-style {
+    background-color: #ddd;
+    padding: 20px;
+    margin-bottom: 10px;
+    line-height: 2;
+}
+
+.btn {
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.btn-item {
+    padding: 30px;
+    margin-right: 20px;
+    background-image: linear-gradient(#ddd, #888);
+    box-shadow: 0 0 5px 3px #000;
+}
