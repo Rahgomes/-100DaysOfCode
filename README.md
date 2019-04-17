@@ -30,4 +30,7 @@ Tecnologias utilizadas: HTML, CSS, JS, jQuery
 ### Day10 - Praticando iterações com For e Foreach
 Tecnologias utilizadas: HTML, CSS, JS
 
-### Day11 - ...
+### Day11 - Organizando o CSS com SASS, placeholder, mixin e variável
+Tecnologias utilizadas: HTML, CSS, SASS
+
+### Day12 - ...

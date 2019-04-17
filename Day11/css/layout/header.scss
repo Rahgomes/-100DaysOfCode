@@ -1,0 +1,44 @@
+/* HEADER */
+* {
+    scroll-behavior: smooth;
+}
+
+.cabecalho {
+    padding-top: $ptop;
+    padding-bottom: $pbottom;
+    @include cor-background;
+    box-sizing: border-box;
+}
+
+.container {
+    @include container;
+}
+
+.menu-nav {
+    @include display;
+    @include alinhamento-flex;
+}
+
+.menu {
+    @include display;
+}
+
+.menu-item {
+    padding-right: 60px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    @extend %config-fonte;
+    font-size: 18px;
+}
+
+.menu-item a:hover {
+    text-decoration: underline;
+}
+
+.logomarca {
+    text-transform: uppercase;
+    @extend %config-fonte;
+    font-size: 30px;
+}

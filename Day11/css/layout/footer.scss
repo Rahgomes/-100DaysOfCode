@@ -1,0 +1,6 @@
+/* FOOTER */
+
+.rodape {
+    @include cor-background;
+    @extend %tamanho-visualizacao;
+}

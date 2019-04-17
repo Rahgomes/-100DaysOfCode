@@ -1,0 +1,25 @@
+/* MAIN */
+.sobre {
+    @include cor-background(#741590);
+    @extend %tamanho-visualizacao;
+}
+
+.portfolio {
+    @include cor-background(#007db4);
+    @extend %tamanho-visualizacao;
+}
+
+.projetos {
+    @include cor-background(#c08338);
+    @extend %tamanho-visualizacao;
+}
+
+.blog {
+    @include cor-background(#741590);
+    @extend %tamanho-visualizacao;
+}
+
+.contato {
+    @include cor-background(#007db4);
+    @extend %tamanho-visualizacao;
+}
