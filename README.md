@@ -33,4 +33,7 @@ Tecnologias utilizadas: HTML, CSS, JS
 ### Day11 - Organizando o CSS com SASS, placeholder, mixin e variável
 Tecnologias utilizadas: HTML, CSS, SASS
 
-### Day12 - ...
+### Day12 - Praticando a function do Sass e o plugin modal-video.js
+Tecnologias utilizadas: HTML, CSS, SASS, JS, jQuery
+
+### Day13 - ...

@@ -1,0 +1,25 @@
+/* HEADER */
+* {
+    scroll-behavior: smooth;
+}
+
+.nav {
+    box-sizing: border-box;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAATklEQVQoU2O0O3X+PwMDA8MhM0NGEI0LMBKtEJsJD27YgW1R0DgEtwWrdUQrxGYLY8V5iDUdhghrKFOITfenmXFgW/jSF+H3DNEKsdkCAO99IAvXcD3VAAAAAElFTkSuQmCC) repeat;
+}
+
+.nav-menu {
+    @extend %display-flex;
+    justify-content: center;
+}
+
+.nav-item {
+    padding: padding(4);
+}
+
+.nav-item-link {
+    text-decoration: none;
+    font-family: $font-default;
+    font-size: 3rem;
+    color: $black;
+}
