@@ -1,0 +1,11 @@
+button {
+    border: transparent;
+}
+
+.container {
+    @include container($marginSize: 20px);
+}
+
+.hidden {
+    display: $display;
+}

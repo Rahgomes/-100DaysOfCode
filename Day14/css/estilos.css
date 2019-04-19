@@ -1,0 +1,54 @@
+@charset "UTF-8";
+.nav__logo {
+  width: 120px;
+  height: 120px;
+  padding: 20px; }
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.nav__menu__btn {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+  border-radius: 30px;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-family: 'Fjalla One', 'Pacifico', cursive, sans-serif; }
+
+.nav__menu__item {
+  border-bottom: 1px solid #000;
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 600;
+  font-family: 'Fjalla One', 'Pacifico', cursive, sans-serif;
+  color: #000; }
+
+button {
+  border: transparent; }
+
+.container {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.hidden {
+  display: none; }
+
+/* CABE├çALHO */
+.nav__menu {
+  text-align: center;
+  width: 100%; }
+
+.nav__menu__item__link {
+  text-decoration: none; }
+
+/*# sourceMappingURL=estilos.css.map */

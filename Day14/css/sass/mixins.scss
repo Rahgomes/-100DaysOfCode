@@ -1,0 +1,8 @@
+@mixin container ($marginSize: 20px) {
+    margin-left: $marginSize;
+    margin-right: $marginSize;
+}
+
+@mixin width ($widthSize: 100%) {
+    width: $widthSize;
+}

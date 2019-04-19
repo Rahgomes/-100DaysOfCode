@@ -1,0 +1,25 @@
+/* CABEÇALHO */
+.nav {
+    @extend %nav;
+}
+
+.nav__logo {
+    @extend %logo;
+}
+
+.nav__menu__btn {
+    @extend %menu_btn;
+}
+
+.nav__menu {
+    text-align: center;
+    @include width;
+}
+
+.nav__menu__item__link {
+    text-decoration: none;
+}
+
+.nav__menu__item {
+    @extend %menu_item;
+}
