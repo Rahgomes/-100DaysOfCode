@@ -36,4 +36,7 @@ Tecnologias utilizadas: HTML, CSS, SASS
 ### Day12 - Praticando a function do Sass e o plugin modal-video.js
 Tecnologias utilizadas: HTML, CSS, SASS, JS, jQuery
 
-### Day13 - ...
+### Day13 - Layoutando com Flexbox, simples layout responsivo
+Tecnologias utilizadas: HTML, CSS(FLEXBOX)
+
+### Day14 - ...
