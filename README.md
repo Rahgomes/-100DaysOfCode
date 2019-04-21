@@ -42,4 +42,7 @@ Tecnologias utilizadas: HTML, CSS(FLEXBOX)
 ### Day14 - Mobile Menu Toggle
 Tecnologias utilizadas: HTML, CSS(FLEXBOX), SASS, JS, jQuery
 
-### Day15 - ...
+### Day15 - Começando a prática na OO com JS ES6
+Tecnologias utilizadas: HTML, CSS, JS
+
+### Day16 - ...
