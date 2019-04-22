@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Challenge Accepted! #100DaysOfCode - #Day16 Calculando a média de um aluno</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <h1 class="titulo">Média aluno</h1>
+    </nav>
+    <main class="container">
+        <form id="form" class="form" onsubmit="mediaAluno.calculaMediaAluno(event)">
+            <div class="divNome">
+                <label class="label" for="nome">Nome:</label>
+                <input id="nome" class="input" type="text" placeholder="Digite o nome do aluno">
+            </div>
+
+            <div class="divNotas">
+                <label class="label" for="n1">N1: </label>
+                <input id="n1" class="input" type="text" placeholder="Digite a primeira nota desse aluno">
+
+                <label class="label" for="n2">N2: </label>
+                <input id="n2" class="input" type="text" placeholder="Digite a segunda nota desse aluno">
+
+                <label class="label" for="n3">N3: </label>
+                <input id="n3" class="input" type="text" placeholder="Digite a terceira nota desse aluno">
+
+                <label class="label" for="n4">N4: </label>
+                <input id="n4" class="input" type="text" placeholder="Digite a quarta nota desse aluno">
+            </div>
+
+            <div class="divBtn">
+                <button id="btn-media" class="btn">Calcular média</button>
+            </div>
+        </form>
+
+        <section class="section">
+            <div class="divP">
+                <span class="paragrafo">Nome do aluno: </span><span class="span" id="nomeAluno"></span>
+            </div>
+            <div class="divP">
+                <span class="paragrafo">N1: <span><span class="span" id="notaAluno1"></span>
+            </div>
+            <div class="divP">
+                <span class="paragrafo">N2: <span><span class="span" id="notaAluno2"></span>
+            </div>
+            <div class="divP">
+                <span class="paragrafo">N3: <span><span class="span" id="notaAluno3"></span>
+            </div>
+            <div class="divP">
+                <span class="paragrafo">N4: <span><span class="span" id="notaAluno4"></span>
+            </div>
+            <div class="divP">
+                <span class="paragrafo">A média desse aluno é de: </span><span class="span" id="mediaTotalAluno"></span>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/models/Media.js"></script>
+    <script src="js/controllers/MediaAluno.js"></script>
+    <script>
+
+        let mediaAluno = new MediaAluno();
+
+    </script>
+</body>
+
+</html>

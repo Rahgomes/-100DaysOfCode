@@ -45,4 +45,7 @@ Tecnologias utilizadas: HTML, CSS(FLEXBOX), SASS, JS, jQuery
 ### Day15 - Começando a prática na OO com JS ES6
 Tecnologias utilizadas: HTML, CSS, JS
 
-### Day16 - ...
+### Day16 - Calculando a média de um aluno
+Tecnologias utilizadas: HTML, CSS, JS
+
+### Day17 - ...
