@@ -48,4 +48,7 @@ Tecnologias utilizadas: HTML, CSS, JS
 ### Day16 - Calculando a média de um aluno
 Tecnologias utilizadas: HTML, CSS, JS
 
-### Day17 - ...
+### Day17 - Image Gallery com efeitos
+Tecnologias utilizadas: HTML, CSS, jQuery
+
+### Day18 - ...
