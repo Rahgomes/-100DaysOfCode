@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Challenge Accepted! #100DaysOfCode - #Day18 Front-end Naruto Game</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <section class="container">
+            <div class="row center-content">
+                <h1 class="text-uppercase mt-5 titleChar">Select your Character and start the game!</h1>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="container">
+            <div class="row center-content center-v">
+                <div class="card col-sm-3 mr-4">
+                    <img src="images/naruto.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase center-content">Naruto</h5>
+                        <p class="card-text text-center">Some quick example text to build on the card title and make up
+                            the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-danger select_char text-uppercase center-content">Select
+                            Character</a>
+                    </div>
+                </div>
+
+                <div class="card col-sm-3 mr-4">
+                    <img src="images/sakura.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase center-content">Sakura</h5>
+                        <p class="card-text text-center">Some quick example text to build on the card title and make up
+                            the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-danger select_char text-uppercase center-content">Select
+                            Character</a>
+                    </div>
+                </div>
+
+                <div class="card col-sm-3 mr-4">
+                    <img src="images/sasuke.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase center-content">Sasuke</h5>
+                        <p class="card-text text-center">Some quick example text to build on the card title and make up
+                            the bulk of
+                            the
+                            card's content.</p>
+                        <a href="#" class="btn btn-danger select_char text-uppercase center-content">Select
+                            Character</a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card col-sm-3 d-none char_selected">
+                    <p class="closeChar">X</p>
+                    <img src="images/naruto.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase center-content">Naruto was selected</h5>
+                        <a href="#" class="btn btn-danger ready_game text-uppercase center-content">Start the game!</a>
+                    </div>
+                </div>
+                <div class="card col-sm-3 d-none char_selected">
+                    <p class="closeChar">X</p>
+                    <img src="images/sakura.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase center-content">Sakura was selected</h5>
+                        <a href="#" class="btn btn-danger ready_game text-uppercase center-content">Start the game!</a>
+                    </div>
+                </div>
+                <div class="card col-sm-3 d-none char_selected">
+                    <p class="closeChar">X</p>
+                    <img src="images/sasuke.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase center-content">Sasuke was selected</h5>
+                        <a href="#" class="btn btn-danger ready_game text-uppercase center-content">Start the game!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

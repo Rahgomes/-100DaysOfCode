@@ -51,4 +51,7 @@ Tecnologias utilizadas: HTML, CSS, JS
 ### Day17 - Image Gallery com efeitos
 Tecnologias utilizadas: HTML, CSS, jQuery
 
-### Day18 - ...
+### Day18 - Front-end Naruto Game
+Tecnologias utilizadas: HTML, CSS, Bootstrap, JS, jQuery
+
+### Day19 - ...
