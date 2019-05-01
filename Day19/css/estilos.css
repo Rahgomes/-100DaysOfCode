@@ -1,0 +1,80 @@
+* {
+    scroll-behavior: smooth;
+}
+
+header {
+    border-bottom: 1px solid #000;
+    border-top: 10px solid #000;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.wrapper {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-list-item {
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+
+.menu-list-item a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Gugi', cursive;
+}
+
+.menu-list-item a:hover {
+    text-decoration: underline;
+}
+
+h1 a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Gugi', cursive;
+}
+
+main {
+    padding-top: 80px;
+}
+
+.section-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 50%;
+}
+
+img {
+    border-radius: 10%;
+    box-shadow: 0 0 30px 5px #000;
+}
+
+h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-family: 'Gugi', cursive;
+}
+
+.about-lorem {
+    font-size: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
