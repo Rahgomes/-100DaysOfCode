@@ -1,0 +1,35 @@
+
+body {
+    display: flex;
+    justify-content: space-around;
+}
+
+form, .retorno_js, .retorno_php {
+    padding: 30px;
+    margin: 30px;
+    border: 1px solid #000;
+    display: inline-block;
+}
+
+legend, h1 {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.form_style {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding-bottom: 5px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+.paragrafo {
+    padding-bottom: 50px;
+    font-weight: bold;
+}
