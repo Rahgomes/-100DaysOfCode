@@ -65,3 +65,6 @@ Tecnologias utilizadas: HTML, CSS, JS, jQuery, PHP
 
 ### Day22 - Callback com for in e filter
 Tecnologias utilizadas: JS
+
+### Day23 - Recuperando a Velocidade Atual do carro
+Tecnologias utilizadas: JS
