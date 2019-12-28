@@ -68,3 +68,6 @@ Tecnologias utilizadas: JS
 
 ### Day23 - Recuperando a Velocidade Atual do carro
 Tecnologias utilizadas: JS
+
+### Day24 - Retorno de Celulares utilizando as diferenças entre Class, function factory e função construtora
+Tecnologias utilizadas: JS
