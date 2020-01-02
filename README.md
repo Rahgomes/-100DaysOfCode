@@ -74,3 +74,6 @@ Tecnologias utilizadas: JS
 
 ### Day25 - Cálculo de contas relacionadas ao mês e ano e descontadas do salário JS OO
 Tecnologias utilizadas: JS
+
+### Day26 - Criando uma nova função baseada em forEach em prototype
+Tecnologias utilizadas: JS
