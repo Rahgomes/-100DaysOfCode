@@ -77,3 +77,6 @@ Tecnologias utilizadas: JS
 
 ### Day26 - Criando uma nova função baseada em forEach em prototype
 Tecnologias utilizadas: JS
+
+### Day27 - Formas de investimentos utilizando o laço MAP
+Tecnologias utilizadas: JS
