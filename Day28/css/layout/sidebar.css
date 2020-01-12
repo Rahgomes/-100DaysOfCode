@@ -1,0 +1,21 @@
+.sidebar {
+	background-color: #851d41;
+	height: 60vh;
+	width: 30vw;
+}
+
+.sidebar-list {
+	padding: 20px;
+}
+
+.sidebar-list-item {
+	padding-bottom: 10px;
+}
+
+.sidebar-item {
+	color: #fff;
+}
+
+.sidebar-item .fa {
+	color: #ede59a;
+}

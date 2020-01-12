@@ -80,3 +80,6 @@ Tecnologias utilizadas: JS
 
 ### Day27 - Formas de investimentos utilizando o laço MAP
 Tecnologias utilizadas: JS
+
+### Day28 - Layout básico utilizando a metologia SMACSS
+Tecnologias utilizadas: HTML CSS

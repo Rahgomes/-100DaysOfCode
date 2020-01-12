@@ -1,0 +1,18 @@
+.article {
+	background-color: #ffb99a;
+	height: 60vh;
+	width: 70vw;
+}
+
+.article-list {
+	padding: 20px;
+}
+
+.article-list-item {
+	padding-bottom: 20px;
+}
+
+.article-title {
+	font-weight: bold;
+	padding-bottom: 5px;
+}

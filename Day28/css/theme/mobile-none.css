@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+	.mobile-none {
+		display: none;
+	}
+
+	.msg-sorry {
+		display: block;
+	}
+}
