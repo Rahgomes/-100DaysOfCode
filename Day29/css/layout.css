@@ -1,0 +1,56 @@
+#body {
+	min-height: calc(100vh - 10px);
+	box-sizing: border-box;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 50px 1fr 80px;
+	grid-gap: 5px;
+	grid-template-areas: 
+	'cabecalho'
+	'conteudo'
+	'rodape';
+}
+
+#header,
+#main,
+#footer,
+#banner,
+#sidebar,
+#section,
+#logo,
+#menu {
+	border: 1px solid #000;
+}
+
+#header {
+	grid-area: cabecalho;
+}
+
+#logo {
+	grid-area: logo;
+}
+
+#menu {
+	grid-area: menu;
+}
+
+#main {
+	grid-area: conteudo;
+}
+
+#banner {
+	grid-area: banner;
+}
+
+#section {
+	grid-area: sessao;
+}
+
+#sidebar {
+	grid-area: lateral;
+}
+
+#footer {
+	grid-area: rodape;
+}

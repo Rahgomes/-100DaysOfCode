@@ -1,0 +1,54 @@
+.header {
+	padding: 5px;
+	display: grid;
+	grid-template-columns: 100px 1fr;
+	grid-gap: 5px;
+	grid-template-areas: 
+	'logo menu';
+}
+
+.main {
+	padding: 5px;
+	display: grid;
+	grid-template-columns: 1fr 200px;
+	grid-template-rows: 200px 1fr;
+	grid-gap: 5px;
+	grid-template-areas: 
+	'banner banner'
+	'sessao lateral';
+}
+
+.logo,
+.banner,
+.sidebar,
+.section,
+.menu,
+.footer {
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
+.menu {
+	background-image: url(../img/menu.jpg);		
+}
+
+.logo {
+	background-image: url(../img/logo.jpg);
+}
+
+.banner {
+	background-image: url(../img/banner.jpg);	
+}
+
+.sidebar {
+	background-image: url(../img/sidebar.jpg);		
+}
+
+.section {
+	background-image: url(../img/section.jpg);		
+}
+
+.footer {
+	background-image: url(../img/footer.jpg);		
+}

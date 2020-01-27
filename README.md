@@ -83,3 +83,6 @@ Tecnologias utilizadas: JS
 
 ### Day28 - Layout básico utilizando a metologia SMACSS
 Tecnologias utilizadas: HTML CSS
+
+### Day29 - Layout básico utilizando CSS3 Grid
+Tecnologias utilizadas: HTML CSS(GRID)
