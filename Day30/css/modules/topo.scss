@@ -1,0 +1,10 @@
+.topo {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.topo__contact {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

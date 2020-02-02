@@ -1,0 +1,23 @@
+*, body {
+	font-family: 'Titillium Web', sans-serif;
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+img {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.msg-sorry {
+	display: none;
+}

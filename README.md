@@ -86,3 +86,6 @@ Tecnologias utilizadas: HTML CSS
 
 ### Day29 - Layout básico utilizando CSS3 Grid
 Tecnologias utilizadas: HTML CSS(GRID)
+
+### Day30 - Layout básico utilizando boas práticas CSS
+Tecnologias utilizadas: HTML CSS(GRID e FLEXBOX) SASS BEM SMACSS

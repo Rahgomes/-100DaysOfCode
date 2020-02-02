@@ -1,0 +1,9 @@
+#header {
+    display: grid;
+    grid-area: "header";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: 
+    "topo"
+    "header-content";
+}

@@ -1,0 +1,18 @@
+.header-content {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.logo-main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu__item {
+    margin-right: 20px;
+}

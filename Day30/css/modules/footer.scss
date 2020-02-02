@@ -1,0 +1,26 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+
+
+.footer__title {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer__logo {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.footer__nav-menu {
+    text-align: center;
+}
+
+.nav-menu__item {
+    margin-bottom: 10px;
+}

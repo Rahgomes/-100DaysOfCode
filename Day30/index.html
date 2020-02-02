@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Project using good practises of CSS</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description"
+		content="Project using good practises of CSS - Good practices of CSS like BEM and SMACSS, SASS pre-processor, tecnologies like FLEXBOX and CSS3 GRID for layouts">
+	<meta name="keywords" content="ferramentas Front end">
+	<meta name="robots" content="index, follow">
+	<link rel="stylesheet" href="css/style.css">	
+</head>
+<body id="body">
+	<header id="header">
+		<section class="header">
+			<div class="topo">
+				<div class="wrapper">
+					<section class="topo__contact">
+						<div class="topo__addresss">
+							<p>Rua: Lorem ipsum dolor sit amet consectetur, nº 111</p>
+						</div>
+						<div class="topo__contacts">
+							<i class="fa fa-phone" aria-hidden="true"></i> +55 11 99999-9999
+							<i class="fa fa-phone" aria-hidden="true"></i> +55 11 99999-9999
+						</div>
+					</section>
+				</div>
+			</div>
+			<div class="header-content">
+				<div class="wrapper">
+					<section class="logo-main-menu">
+						<div class="logo" id="home">
+							<a href="#home">
+								<img src="http://placehold.jp/80x80.png" alt="Logo">
+							</a>
+						</div>
+						<nav class="main-menu">
+							<ul class="menu">
+								<li class="menu__item">
+									<a class="menu__item-link" href="#home" title="Home">Home</a>
+								</li>
+								<li class="menu__item">
+									<a class="menu__item-link" href="#company" title="Company">Company</a>
+								</li>
+								<li class="menu__item">
+									<a class="menu__item-link" href="#portfolio" title="Portfolio">Portfolio</a>
+								</li>
+								<li class="menu__item">
+									<a class="menu__item-link" href="#clients" title="Clients">Clients</a>
+								</li>
+								<li class="menu__item">
+									<a class="menu__item-link" href="#contact" title="Contact">Contact</a>
+								</li>
+							</ul>
+						</nav>
+					</section>
+				</div>
+			</div>
+		</section>
+	</header>
+	<main id="main">
+		<section class="main">
+			<div class="banner">
+				<img class="banner__img" src="http://placehold.jp/1200x1200.png" alt="Banner">
+			</div>
+			<div class="wrapper">
+				<div class="main-content">
+					<div class="content">
+						<section class="company mb-50">
+							<h2 class="company__title mb-20" id="company">
+								Company
+							</h2>
+							<p class="company__desc">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo facere aspernatur vero rem quas eveniet debitis nesciunt in natus, asperiores, consectetur voluptatum fuga accusamus saepe. Quasi ipsam libero laudantium possimus.
+							</p>
+							<p class="company__desc mb-20">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo facere aspernatur vero rem quas eveniet debitis
+								nesciunt in natus, asperiores, consectetur voluptatum fuga accusamus saepe. Quasi ipsam libero laudantium
+								possimus.
+							</p>
+							<a href="#" class="btn company__btn">
+								See more about company
+							</a>
+						</section>
+						<h2 class="cards__title mb-20" id="portfolio">
+							Portfolio
+						</h2>
+						<section class="cards mb-50">						
+							<div class="card">
+								<img class="card__img" src="http://placehold.jp/550x550.png" alt="Card">
+								<h2 class="card__title">
+									Lorem ipsum dolor sit amet
+								</h2>
+								<p class="card__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium laudantium saepe necessitatibus facere...</p>
+							</div>
+							<div class="card">
+								<img class="card__img" src="http://placehold.jp/550x550.png" alt="Card">
+								<h2 class="card__title">
+									Lorem ipsum dolor sit amet
+								</h2>
+								<p class="card__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium laudantium saepe
+									necessitatibus facere...</p>
+							</div>
+							<div class="card">
+								<img class="card__img" src="http://placehold.jp/550x550.png" alt="Card">
+								<h2 class="card__title">
+									Lorem ipsum dolor sit amet
+								</h2>
+								<p class="card__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium laudantium saepe
+									necessitatibus facere...</p>
+							</div>
+							<div class="card">
+								<img class="card__img" src="http://placehold.jp/550x550.png" alt="Card">
+								<h2 class="card__title">
+									Lorem ipsum dolor sit amet
+								</h2>
+								<p class="card__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium laudantium saepe
+									necessitatibus facere...</p>
+							</div>
+							<div class="card">
+								<img class="card__img" src="http://placehold.jp/550x550.png" alt="Card">
+								<h2 class="card__title">
+									Lorem ipsum dolor sit amet
+								</h2>
+								<p class="card__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium laudantium saepe
+									necessitatibus facere...</p>
+							</div>
+							<div class="card">
+								<img class="card__img" src="http://placehold.jp/550x550.png" alt="Card">
+								<h2 class="card__title">
+									Lorem ipsum dolor sit amet
+								</h2>
+								<p class="card__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium laudantium saepe
+									necessitatibus facere...</p>
+							</div>
+						</section>
+						<a href="#" class="btn company__btn">
+							See more our portfolios
+						</a>
+						<h2 class="clients__title mb-20 mt-50" id="clients">
+							Clients
+						</h2>
+						<section class="clients mb-50">
+							<img class="clients__img" src="http://placehold.jp/150x150.png" alt="Portfolio">
+							<img class="clients__img" src="http://placehold.jp/150x150.png" alt="Portfolio">
+							<img class="clients__img" src="http://placehold.jp/150x150.png" alt="Portfolio">
+							<img class="clients__img" src="http://placehold.jp/150x150.png" alt="Portfolio">
+							<img class="clients__img" src="http://placehold.jp/150x150.png" alt="Portfolio">
+							<img class="clients__img" src="http://placehold.jp/150x150.png" alt="Portfolio">
+							<img class="clients__img" src="http://placehold.jp/150x150.png" alt="Portfolio">
+							<img class="clients__img" src="http://placehold.jp/150x150.png" alt="Portfolio">
+							<img class="clients__img" src="http://placehold.jp/150x150.png" alt="Portfolio">
+							<img class="clients__img" src="http://placehold.jp/150x150.png" alt="Portfolio">
+						</section>
+						<a href="#" class="btn company__btn">
+							See more our clients
+						</a>
+						<br><br><br>
+					</div>
+					<aside class="aside">
+						<nav class="menu-aside">
+							<ul class="menu__aside">
+								<li class="menu__aside-item">
+									<a class="aside-item__link" href="#home" title="Home">Home</a>
+								</li>
+								<li class="menu__aside-item">
+									<a class="aside-item__link" href="#company" title="Company">Company</a>
+								</li>
+								<li class="menu__aside-item">
+									<a class="aside-item__link" href="#portfolio" title="Portfolio">Portfolio</a>
+								</li>
+								<li class="menu__aside-item">
+									<a class="aside-item__link" href="#clients" title="Clients">Clients</a>
+								</li>
+								<li class="menu__aside-item">
+									<a class="aside-item__link" href="#contact" title="Contact">Contact</a>
+								</li>
+							</ul>
+						</nav>
+					</aside>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer id="footer">
+		<div class="wrapper">
+			<section class="footer pt-20 pb-50" id="contact">
+				<div class="footer__company">
+					<h2 class="footer__title mb-20">
+						Lorem ipsum dolor
+					</h2>
+					<img class="footer__logo" src="http://placehold.jp/80x80.png" alt="Logo company">
+					<p class="footer_desc pt-20">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos natus sunt aut ex itaque molestias atque a alias quae, earum eligendi beatae possimus eos fuga totam nisi nesciunt iure dolores!
+					</p>
+				</div>
+				<div class="footer__menu">
+					<h2 class="footer__title mb-20">
+						Menu
+					</h2>
+					<nav class="footer__nav-menu">
+						<ul class="nav-menu">
+							<li class="nav-menu__item">
+								<a class="nav-menu__link" href="#home" title="Home">Home</a>
+							</li>
+							<li class="nav-menu__item">
+								<a class="nav-menu__link" href="#company" title="Company">Company</a>
+							</li>
+							<li class="nav-menu__item">
+								<a class="nav-menu__link" href="#portfolio" title="Portfolio">Portfolio</a>
+							</li>
+							<li class="nav-menu__item">
+								<a class="nav-menu__link" href="#clients" title="Clients">Clients</a>
+							</li>
+							<li class="nav-menu__item">
+								<a class="nav-menu__link" href="#contact" title="Contact">Contact</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__map">
+					<h2 class="footer__title mb-20">
+						Map
+					</h2>
+					<img class="footer__logo" src="http://placehold.jp/300x150.png" alt="Logo company">
+				</div>
+			</section>
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,11 @@
+#main {
+    display: grid;
+    grid-area: "main";    
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "banner"
+    "main-content";
+    background-color: #f0f0f0;
+}
+
+
