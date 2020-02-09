@@ -95,3 +95,6 @@ Tecnologias utilizadas: HTML CSS JS
 
 ### Day32 - Flappy Bird - Estrutura básica
 Tecnologias utilizadas: HTML CSS JS
+
+### Day33 - Flappy Bird - Versão final Jogo
+Tecnologias utilizadas: HTML CSS JS
