@@ -89,3 +89,6 @@ Tecnologias utilizadas: HTML CSS(GRID)
 
 ### Day30 - Layout básico utilizando boas práticas CSS
 Tecnologias utilizadas: HTML CSS(GRID e FLEXBOX) SASS BEM SMACSS
+
+### Day31 - Trabalhando com Eventos Drag
+Tecnologias utilizadas: HTML CSS JS
