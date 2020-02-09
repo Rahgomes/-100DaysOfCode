@@ -92,3 +92,6 @@ Tecnologias utilizadas: HTML CSS(GRID e FLEXBOX) SASS BEM SMACSS
 
 ### Day31 - Trabalhando com Eventos Drag
 Tecnologias utilizadas: HTML CSS JS
+
+### Day32 - Flappy Bird - Estrutura básica
+Tecnologias utilizadas: HTML CSS JS
