@@ -98,3 +98,6 @@ Tecnologias utilizadas: HTML CSS JS
 
 ### Day33 - Flappy Bird - Versão final Jogo
 Tecnologias utilizadas: HTML CSS JS
+
+### Day34 - Manipulando o DOM através de função por parâmetro
+Tecnologias utilizadas: HTML CSS JS
