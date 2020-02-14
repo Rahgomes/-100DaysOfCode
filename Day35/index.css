@@ -1,0 +1,21 @@
+.lab {
+    display: flex;
+    justify-content: space-around;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form [type=submit] {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.output {
+    border: 1px solid #888;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
