@@ -104,3 +104,6 @@ Tecnologias utilizadas: HTML CSS JS
 
 ### Day35 - Pegando conteúdo de um textarea e jogando numa DIV
 Tecnologias utilizadas: HTML CSS JS
+
+### Day36 - Coletando multiplos produtos e imprimindo em uma DIV
+Tecnologias utilizadas: HTML CSS JS
