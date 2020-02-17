@@ -107,3 +107,6 @@ Tecnologias utilizadas: HTML CSS JS
 
 ### Day36 - Coletando multiplos produtos e imprimindo em uma DIV
 Tecnologias utilizadas: HTML CSS JS
+
+### Day37 - Coletando multiplos produtos e imprimindo em uma DIV excluíndo algum dado repetido
+Tecnologias utilizadas: HTML CSS JS
