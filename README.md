@@ -110,3 +110,6 @@ Tecnologias utilizadas: HTML CSS JS
 
 ### Day37 - Coletando multiplos produtos e imprimindo em uma DIV excluíndo algum dado repetido
 Tecnologias utilizadas: HTML CSS JS
+
+### Day38 - Cálculo de média - números digitados pelo usuário
+Tecnologias utilizadas: HTML CSS JS
