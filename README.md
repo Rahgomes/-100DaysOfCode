@@ -113,3 +113,6 @@ Tecnologias utilizadas: HTML CSS JS
 
 ### Day38 - Cálculo de média - números digitados pelo usuário
 Tecnologias utilizadas: HTML CSS JS
+
+### Day39 - Programação funcional, adicionando negociações via js
+Tecnologias utilizadas: HTML CSS JS
