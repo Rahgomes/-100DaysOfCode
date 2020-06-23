@@ -116,3 +116,6 @@ Tecnologias utilizadas: HTML CSS JS
 
 ### Day39 - Programação funcional, adicionando negociações via js
 Tecnologias utilizadas: HTML CSS JS
+
+### Day40 - Orientação a objetos com javascript
+Tecnologias utilizadas: JS
