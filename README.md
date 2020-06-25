@@ -119,3 +119,6 @@ Tecnologias utilizadas: HTML CSS JS
 
 ### Day40 - Orientação a objetos com javascript
 Tecnologias utilizadas: JS
+
+### Day41 - Orientação a objetos com javascript - Criação de conta, sistema autenticação de usuário
+Tecnologias utilizadas: JS
