@@ -122,3 +122,6 @@ Tecnologias utilizadas: JS
 
 ### Day41 - Orientação a objetos com javascript - Criação de conta, sistema autenticação de usuário
 Tecnologias utilizadas: JS
+
+### Day42 - Orientação a objetos com javascript - Criação de funcionario, classe abstrata, herança e polimorfismo
+Tecnologias utilizadas: JS
