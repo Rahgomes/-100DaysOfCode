@@ -125,3 +125,6 @@ Tecnologias utilizadas: JS
 
 ### Day42 - Orientação a objetos com javascript - Criação de funcionario, classe abstrata, herança e polimorfismo
 Tecnologias utilizadas: JS
+
+### Day43 - Validação de formulário de cadastro e de produtos no javascript e html
+Tecnologias utilizadas: HTML CSS JS
