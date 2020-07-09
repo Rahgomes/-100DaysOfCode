@@ -128,3 +128,5 @@ Tecnologias utilizadas: JS
 
 ### Day43 - Validação de formulário de cadastro e de produtos no javascript e html
 Tecnologias utilizadas: HTML CSS JS
+
+### Day44 - Validando CPF na mão
