@@ -130,3 +130,6 @@ Tecnologias utilizadas: JS
 Tecnologias utilizadas: HTML CSS JS
 
 ### Day44 - Validando CPF na mão
+
+### Day45 - Validação de CPF
+Tecnologias utilizadas: JS
