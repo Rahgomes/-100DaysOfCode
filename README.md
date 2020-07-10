@@ -133,3 +133,6 @@ Tecnologias utilizadas: HTML CSS JS
 
 ### Day45 - Validação de CPF
 Tecnologias utilizadas: JS
+
+### Day46 - Requisições HTTP - PUT, POST, GET, DELETE com Fetch API, cadastro clientes
+Tecnologias utilizadas: HTML CSS JS
