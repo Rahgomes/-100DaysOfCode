@@ -136,3 +136,6 @@ Tecnologias utilizadas: JS
 
 ### Day46 - Requisições HTTP - PUT, POST, GET, DELETE com Fetch API, cadastro clientes
 Tecnologias utilizadas: HTML CSS JS
+
+### Day47 - Praticando mais eventos com Formulário
+Tecnologias utilizadas: HTML JS
