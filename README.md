@@ -139,3 +139,6 @@ Tecnologias utilizadas: HTML CSS JS
 
 ### Day47 - Praticando mais eventos com Formulário
 Tecnologias utilizadas: HTML JS
+
+### Day48 - CRUD estático com HTML CSS e JS
+Tecnologias utilizadas: HTML CSS JS
