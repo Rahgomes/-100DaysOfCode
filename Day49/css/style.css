@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Bangers', 'Roboto', cursive;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.box-flex {
+    display: flex;
+}
+
+.box-range,
+.input-values {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-values input {
+    margin: 15px;
+}
+
+.box-range input,
+.box-label p {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-right: 50px;
+}
+
+.box-color {
+    height: 150px;
+    width: 150px;
+    background: #000;
+}

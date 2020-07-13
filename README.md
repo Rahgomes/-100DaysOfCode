@@ -142,3 +142,6 @@ Tecnologias utilizadas: HTML JS
 
 ### Day48 - CRUD estático com HTML CSS e JS
 Tecnologias utilizadas: HTML CSS JS
+
+### Day49 - Troca de cores RGB via input Range
+Tecnologias utilizadas: HTML CSS JS
