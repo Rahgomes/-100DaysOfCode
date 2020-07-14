@@ -145,3 +145,6 @@ Tecnologias utilizadas: HTML CSS JS
 
 ### Day49 - Troca de cores RGB via input Range
 Tecnologias utilizadas: HTML CSS JS
+
+### Day50 - Entendendo a diferença entre innerHTML, innerText e textContent
+Tecnologias utilizadas: HTML JS
