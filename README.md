@@ -148,3 +148,6 @@ Tecnologias utilizadas: HTML CSS JS
 
 ### Day50 - Entendendo a diferença entre innerHTML, innerText e textContent
 Tecnologias utilizadas: HTML JS
+
+### Day51 - Todo List estática, praticando mais manipulação no DOM
+Tecnologias utilizadas: HTML CSS JS
