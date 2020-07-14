@@ -151,3 +151,6 @@ Tecnologias utilizadas: HTML JS
 
 ### Day51 - Todo List estática, praticando mais manipulação no DOM
 Tecnologias utilizadas: HTML CSS JS
+
+### Day52 - Revendo a base com diferenças entre as funções, default parameters e diferenças nas variáveis
+Tecnologias utilizadas: JS
