@@ -154,3 +154,6 @@ Tecnologias utilizadas: HTML CSS JS
 
 ### Day52 - Revendo a base com diferenças entre as funções, default parameters e diferenças nas variáveis
 Tecnologias utilizadas: JS
+
+### Day53 - Praticando um pouco mais de MAP, FILTER, REDUCE, FOREACH com FETCH API
+Tecnologias utilizadas: JS
