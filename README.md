@@ -166,3 +166,6 @@ Tecnologias utilizadas: HTML JS
 
 ### Day56 - Troca de banner simples com SetInterval
 Tecnologias utilizadas: HTML JS
+
+### Day57 - Fetch de API do Github e manipulação do DOM
+Tecnologias utilizadas: HTML JS
