@@ -163,3 +163,6 @@ Tecnologias utilizadas: HTML CSS JS
 
 ### Day55 - Praticando mais de SetTimeout, SetInterval e ClearInterval
 Tecnologias utilizadas: HTML JS
+
+### Day56 - Troca de banner simples com SetInterval
+Tecnologias utilizadas: HTML JS
