@@ -157,3 +157,6 @@ Tecnologias utilizadas: JS
 
 ### Day53 - Praticando um pouco mais de MAP, FILTER, REDUCE, FOREACH com FETCH API
 Tecnologias utilizadas: JS
+
+### Day54 - CRUD estático com HTML CSS e JS Moderno
+Tecnologias utilizadas: HTML CSS JS
