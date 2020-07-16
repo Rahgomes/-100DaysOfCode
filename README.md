@@ -160,3 +160,6 @@ Tecnologias utilizadas: JS
 
 ### Day54 - CRUD estático com HTML CSS e JS Moderno
 Tecnologias utilizadas: HTML CSS JS
+
+### Day55 - Praticando mais de SetTimeout, SetInterval e ClearInterval
+Tecnologias utilizadas: HTML JS
