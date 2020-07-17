@@ -172,3 +172,6 @@ Tecnologias utilizadas: HTML JS
 
 ### Day58 - Fetch com Promises e Async Await
 Tecnologias utilizadas: HTML JS
+
+### Day59 - Fetch com API Fake e com Promises/Async Await
+Tecnologias utilizadas: HTML JS
