@@ -169,3 +169,6 @@ Tecnologias utilizadas: HTML JS
 
 ### Day57 - Fetch de API do Github e manipulação do DOM
 Tecnologias utilizadas: HTML JS
+
+### Day58 - Fetch com Promises e Async Await
+Tecnologias utilizadas: HTML JS
