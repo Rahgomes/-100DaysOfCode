@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de países</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="country-container">
+        <div class="country-list">
+            <div class="p-2">
+                <h5>Países (<span id="countCountries"></span>)</h5>
+                <h6>População total: (<span id="totalPopulationList"></span>)</h6>
+            </div>
+            <div id="tabCountries" class="styleListCountries"></div>
+        </div>
+        <div class="country-list">
+            <div class="p-2">
+                <h5>Países (<span id="countFavorites"></span>)</h5>
+                <h6>População total: (<span id="totalPopulationFavorites"></span>)</h6>
+            </div>
+            <div id="tabFavorites" class="styleListCountries"></div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

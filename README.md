@@ -175,3 +175,6 @@ Tecnologias utilizadas: HTML JS
 
 ### Day59 - Fetch com API Fake e com Promises/Async Await
 Tecnologias utilizadas: HTML JS
+
+### Day60 - Fetch em API, listagem de países e filtro de países favoritos
+Tecnologias utilizadas: HTML CSS JS
