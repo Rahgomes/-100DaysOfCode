@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de usuários</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1 class="text-center font-weight-normal">Pesquisa de usuários</h1>
+    <form class="d-flex flex-wrap justify-content-center mt-5">
+        <input type="text" name="inputDataSearch" id="inputDataSearch" placeholder="Busca" class="dataSearch p-2">
+        <input type="submit" id="inputBtnDataSearch" value="BUSCAR" disabled>
+    </form>
+    <div class="container-lg mt-5">
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <div class="box-tab p-2">
+                    <h2 id="titleNoneUser">Nenhum usuário filtrado</h2>
+                    <div id="tabFilteredUsers"></div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="box-tab p-2">
+                    <h2 id="titleNoneView">Nada a ser exibido</h2>
+                    <div id="tabFilteredStatisticsUsers"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

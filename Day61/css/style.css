@@ -1,0 +1,21 @@
+h1 {
+    font-size: 48px;
+}
+
+.dataSearch {
+    width: 50%;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    transition: 300ms ease all;
+    text-transform: lowercase;
+}
+
+.dataSearch:focus {
+    outline: none;
+    border-bottom: 1px solid #333;
+    transition: 300ms ease all;
+}
+
+.box-tab {
+    border: 1px solid #333;
+}
