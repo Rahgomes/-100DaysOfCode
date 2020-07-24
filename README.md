@@ -181,3 +181,6 @@ Tecnologias utilizadas: HTML CSS JS
 
 ### Day61 - Desafio Pesquisa de usuários de API
 Tecnologias utilizadas: HTML CSS JS
+
+### Day62 - Script de contador no React
+Tecnologias utilizadas: JS REACT
