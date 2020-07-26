@@ -1,0 +1,24 @@
+ENDPOINTS API 
+
+GET
+
+api/autor -> Retorno : Array de autores (nome, livro, preço, id)
+
+api/autor/livro -> Retorno : Array de Livros (livro, id)
+
+api/autor/nome -> Retorno : Array de Nomes (nome, id)
+
+api/autor/:id -> Retorno : Autor com respectivo id (nome, livro, preço, id)
+
+POST 
+
+api/autor -> Criação de autor (Retorna o autor inteiro do banco)
+
+
+PATCH 
+
+api/autor/:id -> Atualiza um autor no banco (Retorna o autor inteiro)
+
+DELETE 
+
+api/autor/:id -> Remove o autor do banco

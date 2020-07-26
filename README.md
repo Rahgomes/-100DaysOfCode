@@ -190,3 +190,6 @@ Tecnologias utilizadas: HTML CSS MATERIALIZE JS REACT
 
 ### Day64 - Rádio Podcast
 Tecnologias utilizadas: HTML CSS JS
+
+### Day65 - Primeiro projeto React, Finalização com API e sqlite3 e persistencia de dados
+Tecnologias utilizadas: HTML CSS MATERIALIZE JS REACT
