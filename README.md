@@ -193,3 +193,6 @@ Tecnologias utilizadas: HTML CSS JS
 
 ### Day65 - Primeiro projeto React, Finalização com API e sqlite3 e persistencia de dados
 Tecnologias utilizadas: HTML CSS MATERIALIZE JS REACT
+
+### Day66 - Praticando o readline no Node
+Tecnologias utilizadas: JS NODE.JS
