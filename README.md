@@ -199,3 +199,6 @@ Tecnologias utilizadas: JS NODE.JS
 
 ### Day67 - Praticando o file system para criação/edição/leitura de arquivos
 Tecnologias utilizadas: JS NODE.JS
+
+### Day68 - Trabalhando com EventEmitter no Node
+Tecnologias utilizadas: JS NODE.JS
