@@ -1,7 +1,12 @@
-import ev from './events.js';
+import http from "http";
 
-ev.on('testeEvent', () => {
-    console.log('teste 2');
-});
+http.createServer((req, res) => {
+    if((req.method === 'GET') && (req.url === '/teste')){
+        res.write('GET /teste executado com sucesso');
+    } else {
+        res.write('Hello World 2!!!');
+    }
+    res.statusCode = 200;
+    res.end();
+}).listen(8080);
 
-ev.emit('testeEvent', 'bla bla bla')
