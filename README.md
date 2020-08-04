@@ -205,3 +205,6 @@ Tecnologias utilizadas: JS NODE.JS
 
 ### Day69 - Consumindo API de usuários do Github
 Tecnologias utilizadas: HTML CSS JS
+
+### Day70 - Desmistificando o método sort() com números e strings
+Tecnologias utilizadas: JS
