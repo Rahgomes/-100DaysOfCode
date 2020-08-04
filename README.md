@@ -203,5 +203,5 @@ Tecnologias utilizadas: JS NODE.JS
 ### Day68 - Trabalhando com EventEmitter no Node
 Tecnologias utilizadas: JS NODE.JS
 
-### Day69 - Criando um servidor com Node.js e escutador com o nodemon
-Tecnologias utilizadas: JS NODE.JS
+### Day69 - Consumindo API de usuários do Github
+Tecnologias utilizadas: HTML CSS JS
