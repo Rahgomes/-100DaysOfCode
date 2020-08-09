@@ -208,3 +208,6 @@ Tecnologias utilizadas: HTML CSS JS
 
 ### Day70 - Desmistificando o método sort() com números e strings
 Tecnologias utilizadas: JS
+
+### Day71 - Trabalhando com rotas
+Tecnologias utilizadas: JS NODE.JS
