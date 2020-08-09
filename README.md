@@ -217,3 +217,6 @@ Tecnologias utilizadas: JS NODE.JS
 
 ### Day73 - Trabalhando com Express.js
 Tecnologias utilizadas: JS NODE.JS
+
+### Day74 - Middlewares
+Tecnologias utilizadas: JS NODE.JS
