@@ -1,0 +1,30 @@
+2020-08-07T22:25:20.945Z [my-app] error: Error log
+2020-08-07T22:25:20.947Z [my-app] warn: Warn log
+2020-08-07T22:25:20.948Z [my-app] info: Info log
+2020-08-07T22:25:20.948Z [my-app] verbose: Verbose log
+2020-08-07T22:25:20.949Z [my-app] debug: Debug log
+2020-08-07T22:25:20.950Z [my-app] silly: Silly log
+2020-08-07T22:25:29.125Z [my-app] error: Error log
+2020-08-07T22:25:29.128Z [my-app] warn: Warn log
+2020-08-07T22:25:29.129Z [my-app] info: Info log
+2020-08-07T22:25:29.131Z [my-app] verbose: Verbose log
+2020-08-07T22:25:29.132Z [my-app] debug: Debug log
+2020-08-07T22:25:29.133Z [my-app] silly: Silly log
+2020-08-07T22:27:34.107Z [my-app] error: Error log
+2020-08-07T22:27:34.110Z [my-app] warn: Warn log
+2020-08-07T22:27:34.111Z [my-app] info: Info log
+2020-08-07T22:27:34.113Z [my-app] verbose: Verbose log
+2020-08-07T22:27:34.114Z [my-app] debug: Debug log
+2020-08-07T22:27:34.115Z [my-app] silly: Silly log
+2020-08-07T22:27:34.116Z [my-app] info: Hello world with parameter
+2020-08-07T22:27:41.063Z [my-app] error: Error log
+2020-08-07T22:27:41.066Z [my-app] warn: Warn log
+2020-08-07T22:27:41.066Z [my-app] info: Info log
+2020-08-07T22:27:41.068Z [my-app] verbose: Verbose log
+2020-08-07T22:27:41.069Z [my-app] debug: Debug log
+2020-08-07T22:27:41.070Z [my-app] silly: Silly log
+2020-08-07T22:27:41.072Z [my-app] info: Hello world with parameter
+2020-08-07T22:29:07.429Z [my-app] error: Error log
+2020-08-07T22:29:07.431Z [my-app] warn: Warn log
+2020-08-08T22:47:13.088Z [my-app] error: Error log
+2020-08-08T22:47:13.091Z [my-app] warn: Warn log

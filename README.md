@@ -220,3 +220,6 @@ Tecnologias utilizadas: JS NODE.JS
 
 ### Day74 - Middlewares
 Tecnologias utilizadas: JS NODE.JS
+
+### Day75 - Gravação de Logs
+Tecnologias utilizadas: JS NODE.JS
