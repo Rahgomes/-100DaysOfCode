@@ -232,3 +232,6 @@ Tecnologias utilizadas: JS NODE.JS
 
 ### Day78 - Testando o pacote de Cors para liberação a um endereço diferente
 Tecnologias utilizadas: HTML JS NODE.JS
+
+### Day79 - Criando uma API completa e trabalhando com router
+Tecnologias utilizadas: JS NODE.JS
