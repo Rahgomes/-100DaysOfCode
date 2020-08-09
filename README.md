@@ -223,3 +223,6 @@ Tecnologias utilizadas: JS NODE.JS
 
 ### Day75 - Gravação de Logs
 Tecnologias utilizadas: JS NODE.JS
+
+### Day76 - Criando arquivos estáticos em API
+Tecnologias utilizadas: JS NODE.JS
