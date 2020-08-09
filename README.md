@@ -214,3 +214,6 @@ Tecnologias utilizadas: JS NODE.JS
 
 ### Day72 - Tratamento de erros
 Tecnologias utilizadas: JS NODE.JS
+
+### Day73 - Trabalhando com Express.js
+Tecnologias utilizadas: JS NODE.JS
