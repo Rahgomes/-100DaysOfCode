@@ -226,3 +226,6 @@ Tecnologias utilizadas: JS NODE.JS
 
 ### Day76 - Criando arquivos estáticos em API
 Tecnologias utilizadas: JS NODE.JS
+
+### Day77 - Criando uma API completa com geração de log e validação dos endpoints
+Tecnologias utilizadas: JS NODE.JS

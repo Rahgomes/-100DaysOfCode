@@ -1,0 +1,35 @@
+{
+  "nextId": 7,
+  "accounts": [
+    {
+      "id": 1,
+      "name": "ads Gomes",
+      "balance": 1200
+    },
+    {
+      "id": 2,
+      "name": "Jorge Moreira",
+      "balance": 1250
+    },
+    {
+      "id": 3,
+      "name": "Maria Moreira",
+      "balance": 120
+    },
+    {
+      "id": 4,
+      "name": "Maria Moreira",
+      "balance": 0
+    },
+    {
+      "id": 5,
+      "name": "Maria Moreira",
+      "balance": "asd"
+    },
+    {
+      "id": 6,
+      "name": "Maria Moreira",
+      "balance": 400
+    }
+  ]
+}
