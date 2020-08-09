@@ -211,3 +211,6 @@ Tecnologias utilizadas: JS
 
 ### Day71 - Trabalhando com rotas
 Tecnologias utilizadas: JS NODE.JS
+
+### Day72 - Tratamento de erros
+Tecnologias utilizadas: JS NODE.JS
