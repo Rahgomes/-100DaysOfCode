@@ -229,3 +229,6 @@ Tecnologias utilizadas: JS NODE.JS
 
 ### Day77 - Criando uma API completa com geração de log e validação dos endpoints
 Tecnologias utilizadas: JS NODE.JS
+
+### Day78 - Testando o pacote de Cors para liberação a um endereço diferente
+Tecnologias utilizadas: HTML JS NODE.JS
