@@ -235,3 +235,6 @@ Tecnologias utilizadas: HTML JS NODE.JS
 
 ### Day79 - Criando uma API completa e trabalhando com router
 Tecnologias utilizadas: JS NODE.JS
+
+### Day80 - Testando o JS performático para comparação com React
+Tecnologias utilizadas: HTML JS
