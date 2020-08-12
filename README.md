@@ -238,3 +238,6 @@ Tecnologias utilizadas: JS NODE.JS
 
 ### Day80 - Testando o JS performático para comparação com React
 Tecnologias utilizadas: HTML JS
+
+### Day81 - Executando efeito colateral, manipulação e Class component
+Tecnologias utilizadas: HTML REACT.JS
