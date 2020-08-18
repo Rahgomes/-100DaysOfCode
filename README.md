@@ -250,3 +250,6 @@ Tecnologias utilizadas: HTML CSS MATERIALIZE REACT.JS
 
 ### Day84 - React Counter, convertendo class components em function components
 Tecnologias utilizadas: HTML MATERIALIZE REACT.JS
+
+### Day85 - React Coutry, convertendo class components em function components e consumindo API
+Tecnologias utilizadas: HTML CSS MATERIALIZE REACT.JS
