@@ -244,3 +244,6 @@ Tecnologias utilizadas: HTML REACT.JS
 
 ### Day82 - Component de increment/decrement individuais e com retorno único em class component
 Tecnologias utilizadas: HTML MATERIALIZE REACT.JS
+
+### Day83 - React Lifecycle, class component, utilização do componentDidMount, componentDidUpdate e componentWillUnmount
+Tecnologias utilizadas: HTML CSS MATERIALIZE REACT.JS
