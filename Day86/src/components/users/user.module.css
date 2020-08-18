@@ -1,0 +1,26 @@
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+    justify-content: flex-start;
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid #000;
+    background: #fff;
+    border-radius: 20px 0 20px 0;
+    transition: 300ms all ease;
+}
+
+.flexRow:hover {
+    background: #333;
+    color: #fff;
+    border-radius: 0 20px 0 20px;
+    transition: 300ms all ease;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin-right: 5px;
+    height: 50px;
+    width: 50px;
+}
