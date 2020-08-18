@@ -247,3 +247,6 @@ Tecnologias utilizadas: HTML MATERIALIZE REACT.JS
 
 ### Day83 - React Lifecycle, class component, utilização do componentDidMount, componentDidUpdate e componentWillUnmount
 Tecnologias utilizadas: HTML CSS MATERIALIZE REACT.JS
+
+### Day84 - React Counter, convertendo class components em function components
+Tecnologias utilizadas: HTML MATERIALIZE REACT.JS
