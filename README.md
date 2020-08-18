@@ -241,3 +241,6 @@ Tecnologias utilizadas: HTML JS
 
 ### Day81 - Executando efeito colateral, manipulação e Class component
 Tecnologias utilizadas: HTML REACT.JS
+
+### Day82 - Component de increment/decrement individuais e com retorno único em class component
+Tecnologias utilizadas: HTML MATERIALIZE REACT.JS
