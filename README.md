@@ -256,3 +256,6 @@ Tecnologias utilizadas: HTML CSS MATERIALIZE REACT.JS
 
 ### Day86 - React Lifecycle, convertendo class components em function components
 Tecnologias utilizadas: HTML CSS MATERIALIZE REACT.JS
+
+### Day87 - Componente de votação consumindo um backend, class components para state e function components
+Tecnologias utilizadas: HTML CSS MATERIALIZE REACT.JS NODE.JS
