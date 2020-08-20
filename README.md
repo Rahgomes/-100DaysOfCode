@@ -265,3 +265,6 @@ Tecnologias utilizadas: HTML MATERIALIZE REACT.JS
 
 ### Day89 - React Lifecycle, utilzação de react hooks juntamente com o useState e o useEffect
 Tecnologias utilizadas: HTML CSS MATERIALIZE REACT.JS
+
+### Day90 - React Coutry, convertendo class components para react hooks juntamente com o useState e o useEffect
+Tecnologias utilizadas: HTML CSS MATERIALIZE REACT.JS
