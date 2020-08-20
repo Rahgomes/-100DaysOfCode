@@ -259,3 +259,6 @@ Tecnologias utilizadas: HTML CSS MATERIALIZE REACT.JS
 
 ### Day87 - Componente de votação consumindo um backend, class components para state e function components
 Tecnologias utilizadas: HTML CSS MATERIALIZE REACT.JS NODE.JS
+
+### Day88 - React Counter, utilzação de react hooks juntamente com o useState
+Tecnologias utilizadas: HTML MATERIALIZE REACT.JS
