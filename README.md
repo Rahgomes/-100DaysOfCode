@@ -271,3 +271,6 @@ Tecnologias utilizadas: HTML CSS MATERIALIZE REACT.JS
 
 ### Day91 - Componente de votação consumindo um backend, convertendo class components para react hooks
 Tecnologias utilizadas: HTML CSS MATERIALIZE REACT.JS NODE.JS
+
+### Day92 - React Juros Composto, calculando o juros com react hooks, useState e useEffect
+Tecnologias utilizadas: HTML CSS MATERIALIZE REACT.JS

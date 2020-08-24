@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: 'Do Hyeon', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  background: #333;
+}
+
+label, input {
+  color: #fff;
+}
+
+.card {
+  color: #000;
+  width: 150px;
+  font-size: 20px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.default-flex-row {
+  display        : flex;
+  flex-direction : row;
+  align-items    : center;
+  justify-content: flex-start;
+}
+
+.padding {
+  padding: 10px;
+}
