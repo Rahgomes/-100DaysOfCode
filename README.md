@@ -277,3 +277,6 @@ Tecnologias utilizadas: HTML CSS MATERIALIZE REACT.JS
 
 ### Day93 - Comandos iniciais para um CRUD em mongodb
 Tecnologias utilizadas: MONGODB
+
+### Day94 - Conectando ao servidor do Mongo Atlas no código local
+Tecnologias utilizadas: MONGODB
