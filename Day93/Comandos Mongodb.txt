@@ -1,0 +1,193 @@
+db - verifica base de dados usada
+show dbs - verifica todas as bases de dados criadas
+
+
+db.student.insert([{name: "Pedro da Silva", subject: "Historia", type: "Trabalho pratico", value: 17.5},
+{name: "Jorge Mendonca", subject: "Quimica", type: "Prova final", value: 28.5}])
+
+
+db.student.find(query, projection)
+db.student.find()
+db.student.find().sort({fieldA: 1, fieldB: -1})
+db.student.find({}, {_id: 0, name: 1, value: 1})
+db.student.find({}, {_id: 0, name: 1, value: 1}).limit(4)
+db.student.find({}, {_id: 0, name: 1, value: 1}).limit(4).skip(1)
+db.student.find({}, {_id: 0, name: 1, value: 1}).sort({name: 1})
+db.student.find({}, {_id: 0, name: 1, value: 1}).sort({name: -1}).skip(1)
+db.student.find({}, {_id: 0, name: 1, value: 1}).sort({name: -1}).skip(1).limit(3)
+db.student.find().pretty()
+
+db.student.findOne(query, projection)
+
+
+db.student.insertMany([{name: "Monica Gonçalves", subject: "Quimica", type: "Trabalho pratico", value: 12.5},
+{name: "Jovenildo Jovem", subject: "Quimica", type: "Trabalho final", value: 10.5},
+{name: "Patricia Ferreira", subject: "Matematica", type: "Trabalho final", value: 20.5}])
+
+db.student.find({$and:[{subject: "Quimica"}, {type: "Prova final"}]}, {_id: 0}).pretty()
+db.student.find({$nor:[{subject: "Quimica"}, {type: "Prova final"}]}, {_id: 0}).pretty()
+db.student.find({$or:[{subject: "Quimica"}, {subject: "Quimica"}]}, {_id: 0}).pretty()
+
+Operadores lógicos
+$and:[{subject: "Quimica"}, {type: "Prova final"}] - Traz tudo nos critérios definidos
+$not - nega o que foi dado como critério
+$nor:[{subject: "Quimica"}, {type: "Prova final"}] - Traz tudo que não esteja nos critérios definidos
+$or:[{subject: "Quimica"}, {subject: "Quimica"}]
+
+
+db.student.find({value: {$gt: 20}}, {_id: 0}).pretty()
+db.student.find({subject: {$in: ["Quimica", "Matematica"]}}, {_id: 0}).pretty()
+
+Operadores de comparação
+$eq - Equal/Igual
+$gt - Grader than/Maior que
+$gte - Grader than equal/Maior que ou Igual
+$in  
+$lt - less than
+$lte - less than or Igual
+$ne - not equal
+$nin 
+
+db.student.updateOne({name: "Jose da Silva", subject: "Matematica"}, {$set: {type: "Prova final"}})
+db.student.updateOne({name: "Ramon Gomes da Silva"}, {$inc: {value: 10}})
+db.student.updateMany({subject: "Quimica", type: "Trabalho pratico"}, {$inc: {value: 3}})
+db.student.updateMany({}, {$currentDate: {lastModified: true, timestamp: {$type: "timestamp"}}})
+db.student.updateMany({}, {$unset: {timestamp: 1}})
+db.student.updateMany({}, {$currentDate: {timestamp: {$type: "timestamp"}}})
+db.student.updateOne({name: "Ramon Gomes da Silva"}, {$unset: {timestamp: 1}})
+
+db.student.replaceOne({_id: ObjectId("5f443f688aaec97c0f8d6048")}, {name: "Lucas Goncalves", subject: "Fisica", type: "Prova final", value: 25, lastModified: "$$NOW"})
+
+db.student.deleteOne({_id: ObjectId("5f4465118aaec97c0f8d604e")})
+db.student.deleteMany({subject: "Historia"})
+
+db.student.bulkWrite([
+    {
+        insertOne: {
+            "document": {
+                name: "Thiago Peixoto",
+                subject: "Fisica",
+                type: "Prova final",
+                value: 16,
+                timestamp: new Date()
+            }
+        }
+    },
+    {
+        insertOne: {
+            "document": {
+                name: "Patricia Gomes",
+                subject: "Portugues",
+                type: "Trabalho prático",
+                value: 21,
+                timestamp: new Date()
+            }
+        }
+    },
+    {
+        updateOne: {
+            "filter": {name: "Jorge Mendonca"},
+            "update": {$set:{subject: "Artes"}}
+        }
+    },
+    {
+        deleteOne:{
+            "filter":{
+                name: "Monica Gonçalves",
+                type: "Trabalho pratico",
+                subject: "Quimica"
+            }
+        }
+    },
+    {
+        replaceOne: {
+            "filter":{
+                _id: ObjectId("5f443f688aaec97c0f8d6049")
+            },
+            "replacement":{
+                name:"Bertoluzo Costa",
+                subject:"Matematica",
+                type: "Trabalho pratico",
+                value: 12,
+                lastModified: new Date()
+            }
+        }
+    }
+], {ordered: false})
+
+OBs: cuidado ao usar o ordered, pois ele coloca em forma paralela, se por ventura atualizarmos um arquivo e formos apagá-lo em sequencias diferentes, isso poderá ocasionar um problema.
+
+db.student.getIndexes()
+db.student.createIndex({name: 2})
+db.student.dropIndex({name: 2})
+OBs: Exclui todos os indexes exceto o index primário definido pelo mongodb
+db.student.dropIndexes()
+
+db.livros.find({$text: {$search: "escritora jornalista"}}, {_id: 1})
+
+db.livros.find({
+    $text: {
+        $search: "professora escritora jornalista antropóloga"
+    }
+}, {
+    _id: 0,
+    autoria: 1,
+    score: {
+        $meta: "textScore"
+    }
+}).sort({
+    score:{$meta: "textScore"}
+}).limit(3)
+
+db.COLLECTION.aggregate([
+    {
+        $project:{}
+    },
+    {
+        $match:{campo: "X"}
+    },
+    {
+        $group:{_id: "$campo", total: {$sum: "$campo"}}
+    },
+    {
+        $sort: {campo1: 1, campo2: -1}
+    },
+    {
+        $skip: N
+    },
+    {
+        $limit: N
+    }
+])
+
+db.student.aggregate([
+    {
+        $group:{_id: null, total: {$sum: "$value"}}
+    }
+])
+
+db.student.aggregate([
+    {$group:{_id: null, total: {$avg: "$value"}}}
+])
+
+db.student.aggregate([
+    {$match:{subject: "Matematica"}},
+    {$group:{_id: null, total: {$sum: "$value"}}}
+])
+
+db.student.aggregate([
+    {$match:{subject: "Matematica"}},
+    {$group:{_id: {subject: "$subject", type: "$type"}, total: {$sum: "$value"}}}
+])
+
+db.student.aggregate([
+    {$group:{_id: {subject: "$subject", type: "$type"}, total: {$sum: "$value"}}},
+    {$sort: {_id: 1}}
+])
+
+db.student.count({subject: "Matematica"})
+db.student.count({subject: "Matematica", value: {$gt: 10}})
+db.student.countDocuments({subject: "Matematica"})
+
+db.student.distinct("subject")
+db.student.distinct("subject").sort()

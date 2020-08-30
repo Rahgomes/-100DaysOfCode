@@ -274,3 +274,6 @@ Tecnologias utilizadas: HTML CSS MATERIALIZE REACT.JS NODE.JS
 
 ### Day92 - React Juros Composto, calculando o juros com react hooks, useState e useEffect
 Tecnologias utilizadas: HTML CSS MATERIALIZE REACT.JS
+
+### Day93 - Comandos iniciais para um CRUD em mongodb
+Tecnologias utilizadas: MONGODB
