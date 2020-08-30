@@ -280,3 +280,6 @@ Tecnologias utilizadas: MONGODB
 
 ### Day94 - Conectando ao servidor do Mongo Atlas no código local
 Tecnologias utilizadas: MONGODB
+
+### Day95 - Criando schema com mongoose e utilizando dotenv para proteção da senha ao BD
+Tecnologias utilizadas: MONGODB MONGOOSE
