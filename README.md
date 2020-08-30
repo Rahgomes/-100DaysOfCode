@@ -283,3 +283,6 @@ Tecnologias utilizadas: MONGODB
 
 ### Day95 - Criando schema com mongoose e utilizando dotenv para proteção da senha ao BD
 Tecnologias utilizadas: MONGODB MONGOOSE
+
+### Day96 - Criando uma API com banco de dados
+Tecnologias utilizadas: MONGODB MONGOOSE NODE.JS
