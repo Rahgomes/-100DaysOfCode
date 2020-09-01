@@ -286,3 +286,6 @@ Tecnologias utilizadas: MONGODB MONGOOSE
 
 ### Day96 - Criando uma API com banco de dados
 Tecnologias utilizadas: MONGODB MONGOOSE NODE.JS
+
+### Day97 - API Podcasts com banco de dados e schemas mongoose
+Tecnologias utilizadas: MONGODB MONGOOSE NODE.JS
