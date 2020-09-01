@@ -289,3 +289,6 @@ Tecnologias utilizadas: MONGODB MONGOOSE NODE.JS
 
 ### Day97 - API Podcasts com banco de dados e schemas mongoose
 Tecnologias utilizadas: MONGODB MONGOOSE NODE.JS
+
+### Day98 - My-bank-api criação de uma API em Node e banco de dados, configuração da mesma no heroku
+Tecnologias utilizadas: MONGODB MONGOOSE NODE.JS
