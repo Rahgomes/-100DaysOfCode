@@ -292,3 +292,6 @@ Tecnologias utilizadas: MONGODB MONGOOSE NODE.JS
 
 ### Day98 - My-bank-api criação de uma API em Node e banco de dados, configuração da mesma no heroku
 Tecnologias utilizadas: MONGODB MONGOOSE NODE.JS
+
+### Day99 - Comandos básicos de conexão ao servidor do heroku, assim como uma configuração de substituição do package.json
+Tecnologias utilizadas: HEROKU

@@ -1,0 +1,12 @@
+heroku login
+heroku create
+git remote add heroku git@heroku.com:appname.git - acaso não apareça o heroku no remote -v
+heroku apps:rename backend-api-students (essa última parte é para renomear)
+
+Criar Procfile com os dados web: node -r dotenv/config --experimental-modules app.js para o heroku interpretar este comando, ao invés do package.json
+
+git push heroku master - comando para dar o push diretamente no heroku
+
+heroku log --tails - log de requisições/erros do heroku
+
+heroku restart - reinicia o servidor do heroku com as atualizações mais recentes
