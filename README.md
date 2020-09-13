@@ -298,3 +298,6 @@ Tecnologias utilizadas: HEROKU
 
 ### Day100 - Revendo class components e alteração de estado com setState
 Tecnologias utilizadas: HTML REACT.JS
+
+### Day101 - Passando propriedades de pai para filho, clonando props do pai para o filho
+Tecnologias utilizadas: HTML REACT.JS
