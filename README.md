@@ -295,3 +295,6 @@ Tecnologias utilizadas: MONGODB MONGOOSE NODE.JS
 
 ### Day99 - Comandos básicos de conexão ao servidor do heroku, assim como uma configuração de substituição do package.json
 Tecnologias utilizadas: HEROKU
+
+### Day100 - Revendo class components e alteração de estado com setState
+Tecnologias utilizadas: HTML REACT.JS
