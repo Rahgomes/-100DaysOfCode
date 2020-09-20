@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ramon Gomes da Silva",
+      "email": "ramon@dominio.com.br"
+    },
+    {
+      "id": 2,
+      "name": "Maria das Graças",
+      "email": "maria@dominio.com.br"
+    }
+  ]
+}

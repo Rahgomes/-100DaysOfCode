@@ -301,3 +301,6 @@ Tecnologias utilizadas: HTML REACT.JS
 
 ### Day101 - Passando propriedades de pai para filho, clonando props do pai para o filho
 Tecnologias utilizadas: HTML REACT.JS
+
+### Day102 - CRUD cadastro de usuário em react com simulação de backend utilizando json server
+Tecnologias utilizadas: HTML CSS BOOTSTRAP REACT.JS
